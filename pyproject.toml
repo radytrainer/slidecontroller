@@ -1,0 +1,15 @@
+[project]
+name = "airslide"
+version = "0.2.0"
+description = "AirSlide - Present Without Touching. Control PowerPoint and PDF presentations with hand gestures."
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 120
+extend-exclude = ["venv"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "B", "I"]

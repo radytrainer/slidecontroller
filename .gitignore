@@ -1,0 +1,9 @@
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+logs/
+assets/models/*.task
+tests/assets/
+build/
+dist/
